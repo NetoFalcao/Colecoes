@@ -62,4 +62,9 @@ public class Senha {
 		}
 		return false;
 	}
+	
+	public String toString(){
+		return this.nome + " " + this.idade + " " + this.cpf;
+	}
+	
 }
